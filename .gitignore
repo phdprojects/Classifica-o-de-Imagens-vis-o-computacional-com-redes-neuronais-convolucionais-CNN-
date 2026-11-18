@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Databricks / ambiente
+.DS_Store
+*.log
+.env
+.venv/
+
+# Artefactos pesados de treino
+*.h5
+*.keras
+*.ckpt

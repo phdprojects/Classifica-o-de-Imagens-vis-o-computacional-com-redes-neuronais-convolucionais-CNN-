@@ -1,0 +1,9 @@
+# Dependências — o projeto foi desenhado para correr em Databricks CPU serverless,
+# onde numpy/pandas/matplotlib já vêm pré-instalados; o TensorFlow é instalado
+# no STEP 0 do notebook (%pip install tensorflow).
+#
+# Para experimentar fora do Databricks (Jupyter local):
+tensorflow>=2.16
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
