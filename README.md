@@ -52,3 +52,11 @@ divisão oficial 50.000/10.000.
 
 1. Databricks: importar o notebook e Run All (o STEP 0 instala o TensorFlow; ~2 min/época em CPU serverless; ~45 min no total, incluindo a P7 de 40 épocas).
 2. Jupyter local: `pip install -r requirements.txt`, correr as células (trocar `%pip`/`%md` pelos equivalentes), com o dataset ao lado em `dataset/` (instruções no `dataset/README.md`).
+3. Kaggle: o estudo completo está publicado e pronto a executar (GPU grátis) em **https://www.kaggle.com/code/gonaldomichael/cnn-classifica-o-de-imagens-redes-neuronais** — usa o notebook `CNN-CIFAR-10-Kaggle.ipynb` deste repositório com o dataset `dataset/` anexado (os 5 ficheiros `.npy`, publicados como Dataset no Kaggle).
+
+## Kaggle
+
+O projeto está também publicado no Kaggle com o dataset anexado e os resultados salvos:
+
+- **Notebook executável**: https://www.kaggle.com/code/gonaldomichael/cnn-classifica-o-de-imagens-redes-neuronais
+- **Dataset**: os 5 ficheiros `.npy` da pasta `dataset/` (CIFAR-10 completo, licença CC0: Public Domain)
